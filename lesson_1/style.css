@@ -1,0 +1,17 @@
+h2  {
+    background: silver;
+}
+p {
+    background: pink;
+    color: blue;
+    width: 400px;
+}
+
+ul  {
+    background: green;
+}
+
+li {
+    color: orange;
+    font-style: italic;
+}
