@@ -1,0 +1,52 @@
+body {
+    background: cornflowerblue;
+    padding: 100px;
+}
+
+div {
+    margin: 10px;
+}
+
+.content {
+    width: 400px;
+    height: 150px;
+    background: white;
+
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.content > h3 {
+    text-align: center;
+    margin: 5px;
+    color: orange;
+}
+
+.icon {
+    display: flex;
+}
+
+.icon > i {
+    font-size: 70px;
+    text-align: center;
+}
+
+.icon > p {
+    text-align: center;
+}
+
+.one {
+    display: flex;
+    justify-content: center;
+}
+
+.two {
+    display: flex;
+    justify-content: center;
+}
+
+.three {
+    display: flex;
+    justify-content: center;
+}
+
