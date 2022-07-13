@@ -1,0 +1,54 @@
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-top: 100px;
+}
+
+.card {
+    width: 250px;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid silver;
+}
+.circle {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+
+    border: 2px solid silver;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 50px;
+}
+
+.text {
+    color: silver;
+    width: 190px;
+    text-align: center;
+
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+i {
+    font-size: 30px;
+    color: orange;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+
+    background-color: white;
+}
